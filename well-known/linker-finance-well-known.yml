@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the linkerfinance.com well-known surface
+notes: >-
+  All standard /.well-known/ discovery documents were probed on both the apex
+  and www hosts and every one returned 404. Linker Finance publishes no public
+  API surface, so this is an expected negative result rather than a gap. This
+  file is retained as the probe record so re-runs are idempotent. No WellKnown
+  or SecurityTxt pointer is wired into apis.yml because nothing was found.
+hosts:
+- host: https://www.linkerfinance.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://linkerfinance.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

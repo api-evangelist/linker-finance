@@ -1,0 +1,57 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.linkerfinance.com
+trust_center:
+  url: https://trust.linkerfinance.com
+  status: 200
+  platform: Vanta
+  title: Linker Finance Trust Center
+  description: >-
+    Welcome to the Linker Finance Trust Center. Our commitment to data privacy
+    and security is built into everything we do. Explore this Trust Center to
+    learn more about our security posture and how we're building a secure,
+    transparent platform for community banks.
+  verified: '2026-07-19'
+certifications:
+- name: SOC 2 Type II
+  claimed: true
+  evidence: https://www.linkerfinance.com/
+  evidence_detail: >-
+    Homepage FAQ "What is your security posture?" states the platform is
+    "SOC 2 Type II and PCI Compliant".
+  report_public: false
+  note: >-
+    Claim harvested from the vendor's own marketing FAQ. The Vanta-hosted trust
+    center is a JavaScript application, so its certification badges and any
+    gated report list could not be read from the served HTML and remain
+    unverified here.
+- name: PCI
+  claimed: true
+  evidence: https://www.linkerfinance.com/
+  evidence_detail: >-
+    Homepage FAQ states the platform is "SOC 2 Type II and PCI Compliant".
+    The specific PCI DSS level and version are not published.
+  report_public: false
+security_practices:
+  page: https://www.linkerfinance.com/security
+  cloud: AWS
+  practices:
+  - encryption at rest for all stored data
+  - database encryption
+  - TLS for data in transit
+  - Mobile Device Management (device encryption, access control, remote wipe)
+  - static analysis in the development pipeline
+  - recurring threat and vulnerability scans
+  - recurring penetration testing
+due_diligence:
+  self_serve: false
+  note: >-
+    Homepage FAQ states a Due Diligence Package is provided during the
+    contractual process rather than published publicly.
+discrepancies:
+- >-
+  The /security page states Linker Finance is "actively seeking certifications
+  that validate our adherence to industry best practices", which conflicts with
+  the homepage FAQ claim of existing SOC 2 Type II and PCI compliance. The
+  /security page appears to predate the Vanta trust center. Both are recorded
+  verbatim rather than reconciled.

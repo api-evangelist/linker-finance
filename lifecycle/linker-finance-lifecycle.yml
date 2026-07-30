@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.linkerfinance.com/legal/service-level-agreement
+notes: >-
+  Linker Finance publishes a contractual SLA but no public API versioning
+  policy, deprecation policy, or status page. StatusPage and Deprecation
+  pointers are deliberately NOT wired into apis.yml because neither exists.
+sla:
+  url: https://www.linkerfinance.com/legal/service-level-agreement
+  version: '1.11'
+  updated: '2024-10-26'
+  uptime_commitment: 99%
+  measurement_window: monthly billing cycle
+  scope: >-
+    Applies to "Critical Services" and Dedicated Environments for subscription
+    clients, subject to SLA Exclusions.
+  availability_formula: (1 - (Down Time / Total Time)) x 100
+  remedy_basis: Monthly Fee
+  terms: https://www.linkerfinance.com/legal/terms-of-use
+status_page:
+  published: false
+  probed:
+  - host: https://status.linkerfinance.com
+    result: no DNS / connection failed
+versioning:
+  api_versioning_policy: null
+  published: false
+  note: >-
+    No public API, therefore no API versioning scheme. The legal documents
+    themselves are versioned (SLA v1.11) and superseded copies are retained at
+    dated URLs, e.g. /legal/terms-of-use-2023-05-01.
+deprecation:
+  policy_published: false
+  sunset_header: null
+  deprecation_header: null
+maintenance:
+  scheduled_maintenance_announced: true
+  detail: >-
+    The SLA defines "Maintenance" as scheduled unavailability announced prior to
+    services becoming unavailable.
+support:
+  channel: https://www.linkerfinance.com/contact
+  detail: >-
+    Support Services are defined contractually in the SLA rather than through a
+    public help center or developer support channel.
+subprocessors:
+- name: Sardine
+  purpose: real-time fraud prevention
+  pass_through_terms: https://www.linkerfinance.com/legal/pass-through-terms/sardine-ai

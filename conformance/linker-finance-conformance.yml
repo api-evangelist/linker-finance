@@ -1,0 +1,66 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  https://www.linkerfinance.com/ (FAQ), https://www.linkerfinance.com/security,
+  https://trust.linkerfinance.com
+notes: >-
+  Linker Finance publishes no public API specification, so no API-level
+  conformance (REST conventions, RFC 9457, pagination, idempotency, OAuth) can
+  be derived. The assertions below cover the compliance and banking-domain
+  standards the company states publicly. Nothing here is inferred from a spec.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  basis: vendor-claim
+  evidence: https://www.linkerfinance.com/
+  detail: >-
+    Homepage FAQ: "Our Platform is SOC 2 Type II and PCI Compliant". No public
+    report or auditor is named; a Due Diligence Package is offered only during
+    the contractual process.
+- id: pci
+  conforms: true
+  basis: vendor-claim
+  evidence: https://www.linkerfinance.com/
+  detail: >-
+    Homepage FAQ claims PCI compliance. Neither the PCI DSS level nor the
+    version is published.
+- id: kyc
+  conforms: true
+  basis: product-capability
+  evidence: https://www.linkerfinance.com/
+  detail: >-
+    Digital Account Opening performs KYC as part of the account-opening flow;
+    Business Onboarding performs KYC of beneficial owners.
+- id: kyb
+  conforms: true
+  basis: product-capability
+  evidence: https://www.linkerfinance.com/
+  detail: Business Onboarding performs KYB checks on commercial customers.
+- id: aml
+  conforms: true
+  basis: product-capability
+  evidence: https://www.linkerfinance.com/
+  detail: Business Onboarding performs AML checks.
+- id: fiserv-appmarket-certified
+  conforms: true
+  basis: third-party-listing
+  evidence: https://appmarket.fiservapps.com/linker-finance.html
+  detail: >-
+    Listed as a certified PREMIUM partner on the Fiserv AppMarket, indicating
+    completed integration certification against Fiserv core banking platforms.
+- id: oauth2
+  conforms: false
+  basis: not-published
+  detail: No public OAuth surface or authorization server metadata is published.
+- id: rfc9457
+  conforms: false
+  basis: not-published
+  detail: No public API specification, so no error format can be asserted.
+- id: openapi
+  conforms: false
+  basis: not-published
+  detail: >-
+    No OpenAPI, AsyncAPI, GraphQL, or other machine-readable API description is
+    published. The company describes "API Connectivity" to bank cores and
+    fintech providers as a product capability, but the interfaces are partner-
+    and customer-scoped rather than public.

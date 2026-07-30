@@ -1,0 +1,46 @@
+# Linker Finance
+
+> Linker Finance provides technology for deposit growth, efficiency, and customer satisfaction, helping community and regional banks launch digital account opening experiences and digital-only deposit brands.
+
+## About
+
+- [Home](https://www.linkerfinance.com/): Overview of Linker Finance's platform for digital account opening and deposit growth.
+- [About Us](https://www.linkerfinance.com/about-us): Company background, mission, and team.
+- [Contact](https://www.linkerfinance.com/contact): How to get in touch with Linker Finance.
+- [Security](https://www.linkerfinance.com/security): Overview of Linker Finance's security and fraud-prevention practices.
+- [Careers](https://www.linkerfinance.com/careers): Open roles at Linker Finance.
+- [News](https://www.linkerfinance.com/news): Company announcements and press coverage.
+
+## Solutions
+
+- [Grow Deposits Through Digital Channels](https://www.linkerfinance.com/lp1/grow-deposits-through-digital-channels): How banks can grow deposits using digital account opening.
+- [Launch a Digital Branch](https://www.linkerfinance.com/lp1/launch-a-digital-branch): How banks can launch a digital-only branch or deposit brand.
+
+## Blog
+
+- [Blog](https://www.linkerfinance.com/blog): Insights on community banking, digital account opening, and deposit growth.
+- [Business Account Opening Is Broken](https://www.linkerfinance.com/blog-post/business-account-opening-is-broken-why-is-it-so-hard-to-fix): Why business account opening is hard to fix.
+- [Grow Deposits Online With Stronger Digital Account Opening](https://www.linkerfinance.com/blog-post/grow-deposits-online-with-stronger-digital-account-opening): How stronger digital account opening drives deposit growth.
+- [How Community Banks Can Launch a Digital-Only Deposit Brand](https://www.linkerfinance.com/blog-post/how-community-banks-can-launch-a-digital-only-deposit-brand): Guidance for banks launching digital-only deposit brands.
+- [Community Banks Are Measuring Digital Growth Wrong](https://www.linkerfinance.com/blog-post/community-banks-are-measuring-digital-growth-wrong): Common mistakes in measuring digital growth.
+- [The Banks Actually Growing Deposits Aren't Counting Accounts](https://www.linkerfinance.com/blog-post/the-banks-actually-growing-deposits-arent-counting-accounts): Rethinking deposit growth metrics.
+- [Build for Compliance From Day One](https://www.linkerfinance.com/blog-post/build-for-compliance-from-day-one): Approaching compliance early in digital banking builds.
+
+## Partnerships & Announcements
+
+- [Linker Finance Expands Community Banking Solutions With Vault Bank](https://www.linkerfinance.com/blog-post/linker-finance-expands-community-banking-solutions-with-vault-bank): Partnership announcement with Vault Bank.
+- [Always Bank Launches Digital Community Banking Experience for Small Businesses](https://www.linkerfinance.com/blog-post/always-bank-launches-digital-community-banking-experience-small-businesses-linker-finance): Partnership announcement with Always Bank.
+- [Linker Finance Partners With Advanced Fraud Solutions](https://www.linkerfinance.com/blog-post/linker-finance-partners-with-advanced-fraud-solutions): Fraud-prevention partnership.
+- [Linker Finance and Sardine Partner on Real-Time Fraud Prevention](https://www.linkerfinance.com/blog-post/linker-finance-sardine-partner-real-time-fraud-prevention-community-banks): Partnership with Sardine for fraud prevention.
+- [Linker Finance Welcomes Alloy Labs as Strategic Investor](https://www.linkerfinance.com/blog-post/linker-finance-welcomes-alloy-labs-as-strategic-investor-to-accelerate-community-bank-innovation): Investment and strategic partnership announcement.
+- [Linker Finance and Fiserv AppMarket](https://www.linkerfinance.com/blog-post/linker-finance-fiserv-appmarket-deposit-growth-digital-banking): Integration with Fiserv AppMarket for deposit growth.
+
+## Legal
+
+- [Privacy Policy](https://www.linkerfinance.com/legal/privacy-policy)
+- [Terms of Use](https://www.linkerfinance.com/legal/terms-of-use)
+- [Service Level Agreement](https://www.linkerfinance.com/legal/service-level-agreement)
+
+## Notes
+
+This file follows the llms.txt convention to help AI assistants and language models understand and accurately reference Linker Finance's products, partnerships, and content. Content on this site may be summarized or cited by AI systems; please attribute Linker Finance as the source. Transactional pages (checkout, order confirmation), category/tag listing pages, and draft/untitled pages are intentionally omitted as they offer no reference value to AI systems.
