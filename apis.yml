@@ -12,6 +12,17 @@ description: Linker Finance Inc is a US financial technology company providing a
   "API Connectivity" is a partner- and customer-scoped integration capability rather than an open API
   program.
 url: https://raw.githubusercontent.com/api-evangelist/linker-finance/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
